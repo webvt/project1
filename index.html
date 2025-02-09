@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra Edit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style-type: none;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 50px;
+            height: 25vh;
+            margin-top: 80px;
+            align-items: center;
+
+        }
+
+        .side {
+            text-align: center;
+            font-size: 25px;
+            color: rgb(65, 64, 64);
+        }
+
+        .btn {
+            padding: 15px;
+            margin: 23px;
+            background-color: #00b6d1;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .item1 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 50px 150px;
+            gap: 0px 20px;
+        }
+
+        .item1 div {
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            color: rgb(59, 59, 59);
+        }
+
+        .bigp {
+            font-size: 30px;
+        }
+
+        .smallp {
+            /* font-size: 11px; */
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(252, 243, 230);
+            text-align: center;
+            padding: 20px 0px;
+
+        }
+
+        .box p {
+            font-size: 8px;
+        }
+
+        .btn2 {
+            padding: 10px;
+            margin-top: 40px;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(106, 250, 106);
+
+        }
+
+        .item2 {
+            display: grid;
+            grid-template-columns: 310px 310px 310px;
+            justify-content: center;
+            row-gap: 10px;
+        }
+        @media screen and (max-width:500px) {
+            .item2 {
+            display: grid;
+            grid-template-columns: 310px;
+            justify-content: center;
+            row-gap: 10px;
+        }
+            
+        }
+        p.country{
+            font-size:13px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <img width="150" src="UE-Logo.png" alt="">
+            </div>
+            <div class="left">
+                <ul>
+                    <li>Product <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>For business <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>Resources<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>Support<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>Our Company<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"
+                            color="#000000" fill="none">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="main">
+            <p>Download <b>UltraEdit</b> for Windows</p>
+            <span><img src="Reviews.png" alt=""></span>
+        </div>
+        <div class="side">
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows</p>
+            <p>version of the text editor.</p>
+            <button class="btn">DOWNLOAD MAC OR LINUX VERSION</button>
+        </div>
+
+    </section>
+
+    <main>
+        <div class="item1">
+            <img width="70" src="UE_logo_icon_white.png" alt="">
+            <div>
+                <p class="bigp">Download UltraEdit</p>
+                <p class="smallp">v2024.2 (released 2025-01-15) | Hotfix information</p>
+            </div>
+        </div>
+
+        <div class="item2">
+            <div class="box box-1">
+                <h3>English</h3>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>B06BC2BB50623A7B1A1C0C2D1C7A6BB5346515A9F5FF2CDE19A60</p>
+                <p>EEE36DC702E</p>
+            </div>
+            <div class="box box-2">
+                <h3>Deutsch</h3>
+                <p class="country">German</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-3">
+                <h3>Italiano</h3>
+                <p class="country">Italian</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-4">
+                <h3>Español</h3>
+                <p class="country">Spanish</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-5">
+                <h3>français</h3>
+                <p class="country">French</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-6">
+                <h3>Português brasileiro</h3>
+                <p class="country">Brazilian Portuguese</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-7">
+                <h3>日本</h3>
+                <p class="country">Japanese</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-8">
+                <h3>한국어</h3>
+                <p class="country">Korean</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+            <div class="box box-9">
+                <h3>华语</h3>
+                <p class="country">Chinese</p>
+                <button class="btn2">Download 64-bit</button>
+                <p>SHA256</p>
+                <p>405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7</p>
+                <p>BD1799F54A5</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
